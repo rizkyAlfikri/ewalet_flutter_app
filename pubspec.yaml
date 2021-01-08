@@ -25,11 +25,15 @@ dependencies:
     sdk: flutter
 
   flutter_svg: ^0.18.1
-
+  flutter_money_formatter: ^0.8.3
   bubbled_navigation_bar: ^0.0.3
+  fluttertoast: ^7.0.4
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
+  # A Flutter plugin for scanning 2D barcodes and QRCodes via camera.
+  barcode_scan: ^2.0.1
+  qr_code_scanner: ^0.0.12
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +52,12 @@ flutter:
 
   assets:
     - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: SansSerif
+      fonts:
+        - asset: assets/fonts/SansSerif/OpenSans-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
